@@ -1,0 +1,69 @@
+.article {
+    background-color: antiquewhite;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.obdlznik_v_texte{
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.nadpis {
+    background-color: antiquewhite;
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nadpis_mensi{
+    font-size: x-large;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header{
+    background-color: lightgray;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 140%;
+}
+
+body{
+    padding:10px;
+    padding-bottom:60px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#squirrel {
+    width: 100%;
+}
