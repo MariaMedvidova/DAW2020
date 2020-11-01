@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "projectRecord.dtd">
+<record>
+    <head>
+        <firstColumn>
+            <key>PED_MICEI2002_TESES</key>
+            <name>Schema and Stylesheet for treating theses in XML</name>
+            <subname>Report inserted in the practical work of the MICEI 2001/02 PED chair</subname>
+        </firstColumn>
+        <secondColumn>
+            <beginDate>September 2002</beginDate>
+            <endDate>September 2002</endDate>
+            <supervisor>José Carlos Ramalho</supervisor>
+        </secondColumn>
+    </head>
+    <team>
+        <title>WorkTeam:</title>
+        <person>
+            <name>Guilherme António Teixeira</name>
+            <email>guilherme.teixeira@neoplastica.com</email>
+        </person>
+        <person>
+            <name>Maria Medvidova</name>
+            <email>blabla@gmail.com</email>
+        </person>
+    </team>
+    <abstract>
+        <title>ABSTRACT:</title>
+        <body>
+            <section>XML, validated by the schema, together with the powerful processing via XSLT, allows to have added facilities in the treatment of information in a standard and shareable way . These are, in addition to other evident advantages, those that open the way for a more than probable evolution of this technology in commercial and research circles. Another important fact is related to the replacement of EDI interfaces by XML in business oriented applications.</section>
+            <section>The work presented includes a schema, a stylesheet, and the instance of the schema in XML. The instance is the report itself.</section>
+            <section>The work intends to define an expeditious and functional structure , which can be applied to a descriptive work, such as a thesis. It is not the objective of the work to create a systematic implementation of all possible objects, but rather to create some more common uses to exemplify the power of these languages.</section>
+        </body>
+    </abstract>
+    <deliverables>
+        <title>Deliverables:</title>
+        <deliverable>Report (HTML version)</deliverable>
+        <deliverable>Report (XML version)</deliverable>
+        <deliverable>XML Schema Documentation (HTML)</deliverable>
+    </deliverables>
+</record>
