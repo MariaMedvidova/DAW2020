@@ -1,0 +1,11 @@
+tbody td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+
+tbody tr:hover {
+    background-color: #ccc;
+}
