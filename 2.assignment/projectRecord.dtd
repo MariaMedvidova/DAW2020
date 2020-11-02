@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <!ELEMENT record (head,team,abstract,deliverables)>
+        <!ELEMENT record (head,team,abstract,deliverables,footer)>
         <!ELEMENT head (firstColumn, secondColumn)>
             <!ELEMENT firstColumn (key, name, subname)>
                 <!ELEMENT key (#PCDATA)>
@@ -18,3 +18,4 @@
                 <!ELEMENT section (#PCDATA)>
              <!ELEMENT deliverables (title,deliverable+)>
                 <!ELEMENT deliverable (#PCDATA)>
+        <!ELEMENT footer (#PCDATA)>
