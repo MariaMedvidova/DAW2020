@@ -1,0 +1,8 @@
+{
+  "name": "5.assignment",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.21.0"
+  }
+}
