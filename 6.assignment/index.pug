@@ -1,0 +1,58 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h2.w3-center ToDo List Management
+                center
+            .w3-container
+                h4.w3-blue.w3-center Insert form:
+                form.w3-contairner(action='/task' method ='POST')
+                    label
+                        b Who
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='who')
+                    label
+                        b Task
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='what')
+                    label
+                        b Date Created
+                    input.w3-input.w3-border.w3-light-grey(type='date' name='dateCreated')
+                    label
+                        b Deadline
+                    input.w3-input.w3-border.w3-light-grey(type='date' name='dateDued')
+
+                    label(for="1")
+                    b School
+                    input.w3-input.w3-border.w3-light-grey(id="1",type='radio' name='type', value="school")
+                    label(for="2")
+                    b Chores
+                    input.w3-input.w3-border.w3-light-grey(id="2",type="radio", name="type", value="chores")
+                    label(for="3")
+                    b Work
+                    input.w3-input.w3-border.w3-light-grey(id="3",type="radio", name="type", value="work")
+
+                    input.w3-ripple.w3-text-light-green(type = 'submit' value = 'Submit')
+            .w3-container
+                h4.w3-blue.w3-center ToDo task list:
+                table.w3-table-all
+                    tr.w3-gray
+                        th Who
+                        th What
+                        th Deadline
+                        th Created
+                        th Type
+                        th
+                        - var count = 0;
+                        each task in list
+                            tr.w3-light-gray
+                            - count++;
+                                td=task.who
+                                td=task.what
+                                td=task.dateDued
+                                td=task.dateCreated
+                                td=task.type
+                                td
+                                    button(onclick="deleteItem(" + count + ")", title="Edit")
+                                        |  Delete
+
+        script(src="/helpAction.js")

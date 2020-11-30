@@ -1,0 +1,9 @@
+{
+  "name": "TP5",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "jsonfile": "^6.1.0",
+    "pug": "^3.0.0"
+  }
+}
