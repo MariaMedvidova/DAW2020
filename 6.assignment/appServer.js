@@ -35,6 +35,11 @@ var myServer = http.createServer((request, response) => {
                     tasks = tasks.filter((task) =>
                     { return task.id.toString() !== id.toString() });
 
+                    for (var i = 0; i < tasks.length; i++){
+                        var task = tasks[i]; // one object
+                        task.id = i
+                    }
+
                     jsonfile.writeFile(myBD, tasks, error => {
                         if (error)
                             console.log(error)
@@ -76,7 +81,7 @@ var myServer = http.createServer((request, response) => {
                     if (!error) {
 
                         //create ID of new task
-                        result.id= Object.keys(task).length + 1;
+                        result.id= Object.keys(task).length;
                         result.done= false;
                         task.push(result)
 

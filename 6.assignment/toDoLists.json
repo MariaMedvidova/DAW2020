@@ -1,1 +1,47 @@
-[{"dateCreated":"2020-11-20","dateDued":"2020-12-10","who":"Majka","what":"notebook","type":"school","id":1,"done":true},{"dateCreated":"2020-11-18","dateDued":"2020-12-10","who":"Misko","what":"Exams","type":"school","id":2,"done":true},{"dateCreated":"2020-11-12","dateDued":"2020-12-18","who":"Tomas","what":"Clean","type":"chores","id":3,"done":false},{"dateCreated":"2020-11-12","dateDued":"2020-12-18","who":"Charles","what":"Clean","type":"chores","id":4,"done":false},{"dateCreated":"2020-11-12","dateDued":"2020-12-18","who":"Rida","what":"Clean","type":"chores","id":5,"done":true},{"dateCreated":"2020-11-12","dateDued":"2020-12-18","who":"Kika","what":"Clean","type":"chores","id":6,"done":false},{"who":"Michal","what":"Repair chair","dateCreated":"2020-11-02","dateDued":"2020-11-26","type":"chores","id":7,"done":false},{"who":"Majka","what":"Do homework","dateCreated":"2020-11-30","dateDued":"2020-12-02","type":"school","id":9,"done":true}]
+[
+  {
+    "dateCreated": "2020-11-20",
+    "dateDued": "2020-12-10",
+    "who": "Majka",
+    "what": "notebook",
+    "type": "school",
+    "id": 0,
+    "done": true
+  },
+  {
+    "dateCreated": "2020-11-18",
+    "dateDued": "2020-12-10",
+    "who": "Misko",
+    "what": "Exams",
+    "type": "school",
+    "id": 1,
+    "done": true
+  },
+  {
+    "dateCreated": "2020-11-12",
+    "dateDued": "2020-12-18",
+    "who": "Tomas",
+    "what": "Clean",
+    "type": "chores",
+    "id": 2,
+    "done": false
+  },
+  {
+    "dateCreated": "2020-11-12",
+    "dateDued": "2020-12-18",
+    "who": "Charles",
+    "what": "Clean",
+    "type": "chores",
+    "id": 3,
+    "done": true
+  },
+  {
+    "dateCreated": "2020-11-12",
+    "dateDued": "2020-12-18",
+    "who": "Kika",
+    "what": "Clean",
+    "type": "chores",
+    "id": 4,
+    "done": false
+  }
+]
