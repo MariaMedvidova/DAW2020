@@ -42,17 +42,36 @@ block content
                         th Created
                         th Type
                         th
-                        - var count = 0;
                         each task in list
-                            tr.w3-light-gray
-                            - count++;
+                            unless task.done
+                                tr.w3-light-gray
                                 td=task.who
                                 td=task.what
                                 td=task.dateDued
                                 td=task.dateCreated
                                 td=task.type
                                 td
-                                    button(onclick="deleteItem(" + count + ")", title="Edit")
+                                    button(onclick="updateTask(" + task.id + ")", title="Delete")
+                                        |  Done
+            .w3-container
+                h4.w3-blue.w3-center DONE task list:
+                table.w3-table-all
+                    tr.w3-gray
+                        th Who
+                        th What
+                        th Deadline
+                        th Created
+                        th Type
+                        th
+                        each task in list
+                            if task.done
+                                tr.w3-light-gray
+                                td=task.who
+                                td=task.what
+                                td=task.dateDued
+                                td=task.dateCreated
+                                td=task.type
+                                td
+                                    button(onclick="deleteTask(" + task.id + ")", title="Delete")
                                         |  Delete
-
         script(src="/helpAction.js")
